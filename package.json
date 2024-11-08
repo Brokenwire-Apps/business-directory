@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "compile": "tsc",
-    "postinstall": "npm run tsc",
-    "dev": "ts-node-dev — respawn — pretty — transpile-only app.ts",
+    "dev": "ts-node-dev app.ts",
     "start": "node app.js"
   },
   "author": "Aaron Wallace <info@aaronwallace.work>",

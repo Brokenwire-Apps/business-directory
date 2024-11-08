@@ -5,9 +5,9 @@ export $(shell sed 's/=.*//' .env)
 clean: 
 	rm -rf ./dist
 	rm -rf node_modules
-	npm install
 
 build: clean
+	npm install 
 	npm run compile
 
 start-dev: build
